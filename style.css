@@ -9,15 +9,47 @@ body{
     
 }
 
- input[type=text] textarea {
+ input textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
 
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=mobile] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=subject] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
 input[type=submit]{
     background-color: crimson;
     color: white;
@@ -38,12 +70,16 @@ input[type=submit]:hover{
 }
 
 .contact_form{
-    content: "";
-    display: table;
-    clear: both;
-    display: flex;
+width: auto;
+  
     
 }
  .container h2{
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
