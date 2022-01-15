@@ -2,23 +2,15 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('images/photo.jpg');
+    background-image: url('images/s.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
 }
 
- input textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
 
-}
-
-input[type=text] {
+input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -77,9 +69,3 @@ width: auto;
  .container h2{
     text-align: center;
 }
-@media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
