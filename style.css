@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/photo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+ input[type=text] textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+input[type=submit]{
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(23, 248, 34);
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact_form{
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    
+}
+ .container h2{
+    text-align: center;
+}
