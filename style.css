@@ -8,16 +8,16 @@ body{
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
-   
     
 }
+
 label{
     font-size: 18px;
 }
+
 textarea{
     font-size: 18px;
 }
-
 
 input[type=text], textarea {
     width: 100%;
