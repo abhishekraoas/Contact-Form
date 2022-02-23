@@ -19,7 +19,7 @@ textarea{
     font-size: 18px;
 }
 
-input[type=text], textarea {
+input[type=text], input[type="textarea"] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -27,13 +27,13 @@ input[type=text], textarea {
     margin-bottom: 16px;
 }
 
-input[type=email] {
+/* input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
-}
+} */
 
 input[type=mobile] {
     width: 100%;
