@@ -67,4 +67,5 @@ button{
 
 button:hover{
     background-color: red;
+    transition: .4s;
 }
