@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ccc;
+    background-color: wheat;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -10,70 +10,33 @@ body{
     justify-content: center;
     
 }
+.contact_form{
+    height: 474px;
+    width: 474px;
+}
 
-label{
-    font-size: 18px;
+input[type=text],input[type=mobile],input[type=subject], input[type=email] {
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid black;   
+    box-sizing: border-box; 
 }
 
 textarea{
-    font-size: 18px;
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid black;   
+    box-sizing: border-box; 
+    height: 125px;
 }
-
-input[type=text], input[type="textarea"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-/* input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-} */
-
-input[type=mobile] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-input[type=subject] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-
-input[type=submit]{
-    background-color: crimson;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-input[type=submit]:hover{
-    background-color: rgb(23, 248, 34);
-}
-
-.cancel-btn{
-    background-color: crimson;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.cancel-btn:hover{
-    background-color: rgb(23, 248, 34);
+label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
@@ -88,6 +51,20 @@ input[type=submit]:hover{
 } 
 
  .container h2{
+    font-size: 35px;
     text-align: center;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+button{
+    background-color: #3f069b;
+    color: white;
+    padding: 11px 30px;
+    margin: 14px 66px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: red;
 }
